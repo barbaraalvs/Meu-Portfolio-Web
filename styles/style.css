@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --cor-primaria: #070F2B;
+    --cor-secundaria: #F1E5D1;
+    --cor-terciaria: #535C91;
+    --cor-hover: #535C91;
+
+    --fonte-primaria: "Inter", sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #0b0c10, #512d6d);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    display: flex;
+    padding: 2% 15% 0% 15%;
+    align-items: baseline;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    justify-content: flex-end;
+    margin: 0 30px 0 30PX;
+}
+
+.cabecalho__links {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin: 50px 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.cabecalho__menu__icon {
+    width: 50px;
+    height: auto;
+    align-items: flex-end;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--font-secundaria);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.cabecalho__imagem {
+    height: 18px;
+    width: auto;
+}
+
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    flex-direction: column;
+}
+
+.home {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__subtituto{
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+}
+
+.home__titulo {
+    font-size: 4.25rem;
+    font-family: var(--fonte-primaria);
+    background: linear-gradient(to right, #512d6d, #1f449b); /* Gradiente de cor */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.home__paragrafo {
+    font-size: 1.5rem;
+    font-family: var(--font-secundaria);
+}
+
+.links__contatos {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.links__navegacao {
+    /* background-color: #22D4FD; atralho ctrol + k + c */
+    width: 50px;
+    text-align: center;
+    padding: 21.5px 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao__imagem {
+    width: 600px;
+    animation: deslizar 3s infinite;
+}
+
+@keyframes deslizar {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.icones__contatos {
+    height: 50px;
+    width: auto;
+}
+
+.icones__contatos:hover {
+    filter: grayscale(0);
+    transform: scale(1.1) rotate(10deg);
+}
+
+
+
+
+.habilidades {
+    height: 200px;
+    width: 200px;
+}
+
+.projetos {
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sec__projeto__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conjunto__projetos {
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px 10px 50px 10px;
+    gap: 200px;
+
+}
+
+.apresentacao__imagem__projetos {
+    width: 400px;
+    height: auto;
+    flex-direction: row;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    gap: 9px;
+    text-align: center;
+    
+}
+
+.rodape__imagem {
+    width: 80px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .home {
+        width: auto;
+    }
+}
