@@ -19,17 +19,17 @@
 }
 
 body {
-    height: 2300px;
+    height: 100%;
     width: 100%;
     box-sizing: border-box;
     background: linear-gradient(to bottom right, #0b0c10, #512d6d);
     color: var(--cor-secundaria);
-    
+     /*overflow: hidden; Impede a rolagem */
 }
 
 .cabecalho {
     display: flex;
-    padding: 2% 15% 0% 15%;
+    padding: 0% 15% 0% 15%;
     align-items: baseline;
     flex-direction: row;
     align-items: center;
@@ -63,6 +63,11 @@ body {
     font-weight: 600;
     color: var(--cor-secundaria);
     text-decoration: none;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.cabecalho__menu__link:hover {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff;
 }
 
 .cabecalho__imagem {
@@ -71,7 +76,7 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 15%;
+    padding: 0% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,8 +89,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px; /* Ajuste conforme necessário */
-    flex-wrap: wrap; /* Para melhor responsividade */
+    
+    flex-wrap: wrap;
     overflow: hidden;
 }
 
@@ -95,6 +100,7 @@ body {
     flex-direction: column;
     max-width: 50%;
     overflow: hidden;
+    gap: 20px;
 }
 
 .home-imagem {
@@ -142,7 +148,7 @@ body {
 
 .apresentacao__imagem {
     width: 100%;
-    max-width: 600px; /* Ajuste conforme necessário */
+    max-width: 600px;
     animation: deslizar 3s infinite;
 }
 
@@ -174,11 +180,19 @@ body {
     justify-content: space-between;
     padding: 20px;
     flex-wrap: wrap;
-    margin: 40px 0 40px 0;
+    margin: 40px 0 95px 0;
 }
 
 .imagem-habilidades {
     max-width: 400px;
+}
+
+.meus__projetos {
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .projetos {
@@ -196,17 +210,15 @@ body {
     gap: 40px;
 }
 
+.todos__projetos {
+    display: flex;
+}
+
 .conjunto__projetos {
     border-radius: 10px;
     padding: 50px 10px 50px 10px;
     gap: 200px;
     text-decoration: none;
-}
-
-.projetos__paragrafo {
-    font-family: var(--fonte-primaria);
-    font-size: 13px;
-    color: #F1E5D1;
 }
 
 .apresentacao__imagem__projetos {
@@ -224,6 +236,7 @@ body {
     font-size: 14px;
     gap: 9px;
     text-align: center;
+    margin: 0 0 15px 0;
 }
 
 .rodape__imagem {
@@ -241,11 +254,11 @@ body {
     }
 
     .apresentacao {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
     }
 
-    .home {
+    .home .habilidades {
         width: auto;
         flex-direction: column;
     }

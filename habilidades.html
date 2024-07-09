@@ -4,32 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habilidades</title>
-    
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header class="cabecalho">
         <img class="cabecalho__menu__icon" src="Assets/icons-codigo.png" alt="">
         <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="home.html">
-                Home
-            </a>
-            <a class="cabecalho__menu__link" href="habilidades.html">
-                Habilidades</a>
-            <a class="cabecalho__menu__link" href="projetos.html">
-                Projetos
-            </a>
+            <ul class="cabecalho__links">
+                <li><a class="cabecalho__menu__link" href="home.html">Home</a></li>
+                <li><a class="cabecalho__menu__link" href="habilidades.html">Habilidades</a></li>
+                <li><a class="cabecalho__menu__link" href="projetos.html">Projetos</a></li>
+            </ul>
         </nav>
-    </header>
+   </header>
     <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Minhas Habilidades</h1>
-            <p class="apresentacao__conteudo__texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut expedita ullam deserunt ab inventore enim, a asperiores quaerat quis ducimus totam perspiciatis, aliquam tempora iusto non natus nobis ex assumenda.</p>
-            <p class="apresentacao__conteudo__texto">Vivamus urna nisi, lobortis ut euismod in, sollicitudin ac ipsum. Mauris a libero id velit pulvinar scelerisque at quis magna. Aliquam erat volutpat.Vivamus urna nisi, lobortis ut euismod in, sollicitudin ac ipsum. Mauris a libero id velit pulvinar scelerisque at quis magna. Aliquam erat volutpat.
-            </p>
+        <section id="habilidades" class="habilidades">
+            <div class="home-content">
+                <h1 class="home__titulo">Minhas Habilidades</h1>
+                <p class="home__paragrafo">Vivamus urna nisi, lobortis ut euismod in, sollicitudin ac ipsum. Mauris a libero id velit pulvinar scelerisque at quis magna.</p>
+                <p class="home__paragrafo">Aliquam erat volutpat.Vivamus urna nisi, lobortis ut euismod in, sollicitudin ac ipsum.</p>
+            </div>
+            <figure class="home-imagem">
+                <img class="imagem-habilidades" src="Assets/habilidade-image.png" alt="">
+            </figure>
         </section>
     </main>
     <footer class="rodape">
-        <img class="rodape__imagem" src="Assets/Logo Alura Include.png" alt="">
+        <img class="rodape__imagem" src="Assets/Logo Alura Include.png" alt="Logo da Alura">
         <p>&copy;Desenvolvido por Bárbara Luiza.</p>
     </footer>
 </body>
