@@ -174,7 +174,7 @@ body {
     justify-content: space-between;
     padding: 20px;
     flex-wrap: wrap;
-    margin: 0 40px 0 40px;
+    margin: 40px 0 40px 0;
 }
 
 .imagem-habilidades {
