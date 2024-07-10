@@ -205,6 +205,16 @@ body {
     margin: 0 0 0 100px;
 }
 
+.conj__icon {
+    display: flex;
+    gap: 20px;
+}
+
+.icones__tech {
+    height: 70px;
+    width: auto;
+}
+
 .meus__projetos {
     padding: 0 15%;
     display: flex;
