@@ -135,7 +135,7 @@ body {
 }
 
 .home__titulo {
-    font-size: 4.25rem;
+    font-size: 4rem;
     font-family: var(--fonte-primaria);
     background: linear-gradient(to right, #512d6d, #1f449b);
         background-clip: text;
