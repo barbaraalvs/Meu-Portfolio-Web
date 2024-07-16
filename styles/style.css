@@ -32,27 +32,27 @@ body {
     padding: 0% 15% 0% 15%;
     align-items: baseline;
     flex-direction: row;
-    align-items: center;
+    align-items: center;    
 }
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 5rem;
     justify-content: flex-end;
-    margin: 0 30px 0 30PX;
+    margin: 0 1.8rem 0 1.8rem;
 }
 
 .cabecalho__links {
     list-style: none;
     display: flex;
-    gap: 80px;
+    gap: 5rem;
     justify-content: center;
-    margin: 50px 30px;
+    margin: 3.10rem 1.9rem;
     align-items: center;
 }
 
 .cabecalho__menu__icon {
-    width: 50px;
+    width: 3.10rem;
     height: auto;
     align-items: flex-end;
 }
@@ -67,11 +67,11 @@ body {
 }
 
 .cabecalho__menu__link:hover {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff;
+    text-shadow: 0 0 0.3rem #fff, 0 0 0.6rem #fff;
 }
 
 .cabecalho__imagem {
-    height: 18px;
+    height: 1.1rem;
     width: auto;
 }
 
@@ -80,7 +80,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
+    gap: 5.1rem;
     flex-direction: column;
     overflow: hidden;
 }
@@ -89,7 +89,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     flex-wrap: wrap;
     overflow: hidden;
 }
@@ -100,11 +99,11 @@ body {
     flex-direction: column;
     max-width: 50%;
     overflow: hidden;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .home-imagem {
-    flex: 1 1 50%;
+    flex: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,9 +112,9 @@ body {
 
 .home__subtituto {
     font-family: var(--font-terciaria);
-    font-size: 20px;
+    font-size: 1.25rem;
     box-shadow: .2em 0 0 #691db6;
-    width: 15ch;
+    width: 11rem;
     overflow: hidden;
     color: #FFF;
     white-space: nowrap;
@@ -151,13 +150,13 @@ body {
 .links__contatos {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .links__navegacao {
-    width: 50px;
+    width: 3.2rem;
     text-align: center;
-    padding: 21.5px 0;
+    padding: 1.35rem 0;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -165,7 +164,7 @@ body {
 
 .apresentacao__imagem {
     width: 100%;
-    max-width: 600px;
+    max-width: 37.5rem;
     animation: deslizar 3s infinite;
 }
 
@@ -182,7 +181,7 @@ body {
 }
 
 .icones__contatos {
-    height: 50px;
+    height: 3.1rem;
     width: auto;
 }
 
@@ -195,37 +194,31 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1.25rem;
     flex-wrap: wrap;
-    margin: 40px 0 95px 0;
+    margin: 2.5rem 0 5.9rem 0;
 }
 
 .imagem-habilidades {
-    max-width: 400px;
+    max-width: 25rem;
 }
 
 .conj__icon {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .icones__tech {
-    height: 60px;
+    height: 3.75rem;
     width: auto;
     cursor: pointer;
     transition: 0.2s;
-    padding: 3px;
+    padding: 0.2rem;
   }
   
   .icones__tech:hover {
     transform: scale(1.25);
   }
-
-
-.certificado__img {
-    height: 350px;
-    width: auto;
-}
 
 .meus__projetos {
     padding: 0 15%;
@@ -239,7 +232,7 @@ body {
     padding: 5% 15%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
     overflow: hidden;
 }
 
@@ -247,12 +240,12 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .todos__projetos {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .conteiner-projeto{
@@ -261,31 +254,31 @@ body {
     justify-content: center;
     position: relative;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     overflow: hidden;
     cursor: pointer;
 }
 
 .conteiner-projeto-legenda {
     position: absolute;
-    top: 50px;
-    left: 10px;
+    top: 3.125rem;
+    left: 0.625rem;
     right: 0;
     bottom: 0;
     margin: 0;
-    width: 390px;
-    height: 255px;
+    width: 24.38rem;
+    height: 15.93rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(43, 35, 70, 0.6);
     color: white;
     font-family: var(--font-secundaria);
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease;
-    border-radius: 18px;
+    border-radius: 1.12rem;
 }
 
 .conteiner-projeto:hover .conteiner-projeto-legenda {
@@ -293,14 +286,14 @@ body {
   }
 
 .conjunto__projetos {
-    border-radius: 10px;
-    padding: 50px 10px 50px 10px;
-    gap: 200px;
+    border-radius: 0.62rem;
+    padding: 3.125rem 0.62rem 3.125rem 0.62rem;
+    gap: 12.5rem;
     text-decoration: none;
 }
 
 .apresentacao__imagem__projetos {
-    width: 400px;
+    width: 25rem;
     height: auto;
     flex-direction: row;
 }
@@ -311,14 +304,14 @@ body {
     align-items: center;
     font-family: var(--font-quartenaria);
     font-weight: 300;
-    font-size: 14px;
-    gap: 9px;
+    font-size: 0.87rem;
+    gap: 0.6rem;
     text-align: center;
-    margin: 0 0 15px 0;
+    margin: 0 0 0.95rem 0;
 }
 
 .rodape__imagem {
-    width: 80px;
+    width: 5rem;
     height: auto;
 }
 
