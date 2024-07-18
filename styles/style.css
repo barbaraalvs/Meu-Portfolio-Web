@@ -344,7 +344,7 @@ body {
     }
     .cabecalho {
         padding: 5%;
-        justify-content: center;
+        width: 80%;
     }
     .cabecalho__menu {
         display: flex;
@@ -380,21 +380,26 @@ body {
     .links__contatos {
         gap: 1rem;
     }
+    .conj__icon {
+        max-width: 50%;
+    }
     .habilidades {
         display: flex;
         align-items: center; 
+        width: 95%;
     }
     .sec__projeto__conteudo {
         flex: 1 1 100%;
-        max-width: 100%;
+        width: 95%;
         text-align: center; 
     }
     .todos__projetos{
         flex-direction: column;
         gap: 1rem;
+        
     }
     .conteiner-projeto{
-
+        max-width: 100%;
         align-items: center;
     }
 }
