@@ -335,19 +335,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
-    .cabecalho {
-        padding: 5%;
-    }
-    .apresentacao {
-        flex-direction: column;
-        padding: 5%;
-    }
-    .home .habilidades {
-        width: auto;
-        flex-direction: column;
-    }
-}
+
 
 @media (max-width: 480px) {
     body {
@@ -356,12 +344,13 @@ body {
     }
     .cabecalho {
         padding: 5%;
+        justify-content: center;
     }
     .cabecalho__menu {
         display: flex;
-        gap: 2%;
-        justify-content: flex-end;
-        
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
     }
     .apresentacao {
         flex-direction: column;
@@ -393,18 +382,15 @@ body {
     }
     .habilidades {
         display: flex;
-        align-items: center;
-        
+        align-items: center; 
     }
     .sec__projeto__conteudo {
         flex: 1 1 100%;
         max-width: 100%;
-        text-align: center;
-        
+        text-align: center; 
     }
     .todos__projetos{
         flex-direction: column;
-        
         gap: 1rem;
     }
     .conteiner-projeto{
