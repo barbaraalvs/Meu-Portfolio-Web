@@ -380,13 +380,17 @@ body {
     .links__contatos {
         gap: 1rem;
     }
-    .conj__icon {
-        max-width: 50%;
+    .icones__tech {
+        width: 12%;
+        height: auto;
     }
     .habilidades {
         display: flex;
         align-items: center; 
         width: 95%;
+    }
+    .imagem-habilidades {
+        width: 90%;
     }
     .sec__projeto__conteudo {
         flex: 1 1 100%;
@@ -401,6 +405,10 @@ body {
     .conteiner-projeto{
         max-width: 100%;
         align-items: center;
+    }
+    .apresentacao__imagem__projetos {
+        max-width: 100%;
+        gap: 0.5rem;
     }
 }
 
