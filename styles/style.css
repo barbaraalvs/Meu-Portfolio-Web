@@ -349,9 +349,19 @@ body {
     }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 480px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
     .cabecalho {
         padding: 5%;
+    }
+    .cabecalho__menu {
+        display: flex;
+        gap: 2%;
+        justify-content: flex-end;
+        
     }
     .apresentacao {
         flex-direction: column;
