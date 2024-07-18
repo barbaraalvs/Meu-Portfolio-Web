@@ -372,7 +372,7 @@ body {
         margin-bottom: 1rem;
     }
     .home__titulo {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .home__paragrafo {
         font-size: 1.3rem;
@@ -381,7 +381,7 @@ body {
         gap: 1rem;
     }
     .icones__tech {
-        width: 12%;
+        width: 11%;
         height: auto;
     }
     .habilidades {
