@@ -24,7 +24,6 @@ body {
     box-sizing: border-box;
     background: linear-gradient(to bottom right, #0b0c10, #512d6d);
     color: var(--cor-secundaria);
-     /*overflow: hidden; Impede a rolagem */
 }
 
 .cabecalho {
@@ -343,14 +342,20 @@ body {
         width: 100%;
     }
     .cabecalho {
+        
         padding: 5%;
-        width: 80%;
-    }
-    .cabecalho__menu {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
+        max-width: 100%;
+        
         justify-content: center;
+        margin: 7% 0 0 0;
+    }
+  
+    .cabecalho__links {
+
+        width: 100%;
+        justify-content: space-around;
+        margin: 0 auto;
+        gap: 15%;
     }
     .apresentacao {
         flex-direction: column;
@@ -408,7 +413,7 @@ body {
     }
     .apresentacao__imagem__projetos {
         max-width: 100%;
-        gap: 0.5rem;
+       
     }
 }
 
